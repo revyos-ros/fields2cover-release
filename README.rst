@@ -133,13 +133,13 @@ Compilation
 ^^^^^^^^^^^
 
 First, clone this repository.
-Then, from the main folder of the project:
+Then, from the source code folder of the project:
 
 .. code-block:: console
 
    mkdir -p build;
    cd build;
-   cmake -DCMAKE_BUILD_TYPE=Release ..;
+   cmake -DCMAKE_BUILD_TYPE=Release -DUSE_ORTOOLS_RELEASE=ON ..;
    make -j$(nproc);
 
 Finally, you can install it as:
@@ -163,7 +163,7 @@ To add Fields2Cover into your CMakeLists.txt, it is as easy as:
 Compilation with python interface
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-As without the interface, clone this repository.
+Assuming you have satisfied the "Requirements on Linux" and completed the initial "Compilation" step.
 
 Install the packages required as:
 
@@ -172,7 +172,7 @@ Install the packages required as:
    sudo apt install swig python3-pytest
 
 
-Then, from the main folder of the project:
+Then, from the source code folder of the project, adjust the BUILD_PYTHON option of the existing build:
 
 .. code-block:: console
 
@@ -230,7 +230,7 @@ Credits and more info
 ---------------------
 
 This library is only possible thanks to `GDAL <https://gdal.org/index.html>`_ who provides the basic types of this library.
-Other great libraries that made Fields2Cover possible are `OR-tools <https://developers.google.com/optimization>`__, `hbanzhaf/steering_functions <https://github.com/hbanzhaf/steering_functions>`_, `nlohmann/json <https://github.com/nlohmann/json/>`_, `leethomason/tinyxml2 <https://github.com/leethomason/tinyxml2>`_, `ttk592/spline <https://github.com/ttk592/spline>`_ and `alandefreitas/matplotplusplus <https://github.com/alandefreitas/matplotplusplus>`_
+Other great libraries that made Fields2Cover possible are `OR-tools <https://developers.google.com/optimization>`__, `hbanzhaf/steering_functions <https://github.com/hbanzhaf/steering_functions>`_, `nlohmann/json <https://github.com/nlohmann/json/>`_, `leethomason/tinyxml2 <https://github.com/leethomason/tinyxml2>`_, `joshhooker/CubicSplineClass <https://github.com/joshhooker/CubicSplineClass>`_ and `alandefreitas/matplotplusplus <https://github.com/alandefreitas/matplotplusplus>`_
 
 
 This code repository is part of the project Fields2Cover which is (partly) financed by the Dutch Research Council (NWO).
