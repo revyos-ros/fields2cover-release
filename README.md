@@ -1,3 +1,26 @@
+## fields2cover (humble) - 2.0.0-7
+
+The packages in the `fields2cover` repository were released into the `humble` distro by running `/home/z572/gits/revyos-ros/venv2/bin/bloom-release -r humble fields2cover --override-release-repository-push-url git@github.com:revyos-ros/fields2cover-release.git` on `Mon, 23 Sep 2024 16:19:49 -0000`
+
+The `fields2cover` package was released.
+
+Version of package(s) in repository `fields2cover`:
+
+- upstream repository: https://github.com/Fields2Cover/fields2cover.git
+- release repository: https://github.com/revyos-ros/fields2cover-release.git
+- rosdistro version: `2.0.0-11`
+- old version: `2.0.0-6`
+- new version: `2.0.0-7`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## fields2cover (iron) - 2.0.0-6
 
 The packages in the `fields2cover` repository were released into the `iron` distro by running `/usr/bin/bloom-release fields2cover --track iron --rosdistro iron` on `Fri, 03 May 2024 22:14:37 -0000`
