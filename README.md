@@ -1,3 +1,26 @@
+## fields2cover (jazzy) - 2.0.0-5
+
+The packages in the `fields2cover` repository were released into the `jazzy` distro by running `/home/z572/gits/revyos-ros/venv2/bin/bloom-release -r jazzy fields2cover --override-release-repository-push-url git@github.com:revyos-ros/fields2cover-release.git` on `Sun, 29 Sep 2024 03:50:14 -0000`
+
+The `fields2cover` package was released.
+
+Version of package(s) in repository `fields2cover`:
+
+- upstream repository: https://github.com/Fields2Cover/fields2cover.git
+- release repository: https://github.com/revyos-ros/fields2cover-release.git
+- rosdistro version: `2.0.0-10`
+- old version: `2.0.0-4`
+- new version: `2.0.0-5`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## fields2cover (humble) - 2.0.0-7
 
 The packages in the `fields2cover` repository were released into the `humble` distro by running `/home/z572/gits/revyos-ros/venv2/bin/bloom-release -r humble fields2cover --override-release-repository-push-url git@github.com:revyos-ros/fields2cover-release.git` on `Mon, 23 Sep 2024 16:19:49 -0000`
